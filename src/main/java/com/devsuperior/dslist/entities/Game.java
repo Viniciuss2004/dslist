@@ -1,9 +1,7 @@
 package com.devsuperior.dslist.entities;
 
 import jakarta.persistence.*;
-
 import java.util.Objects;
-
 import jakarta.persistence.Entity;
 
 @Entity
