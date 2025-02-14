@@ -27,7 +27,7 @@
         <url/>
     </scm>
     <properties>
-        <java.version>21</java.version>
+        <java.version>22</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -61,8 +61,11 @@
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <version>3.1.0</version> <!--$NO-MVN-MAN-VER$ -->
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version> <!-- Certifique-se de estar usando uma versão recente -->
+                <configuration>
+                    <release>22</release> <!-- Altere para sua versão do Java -->
+                </configuration>
             </plugin>
 
             <plugin>
